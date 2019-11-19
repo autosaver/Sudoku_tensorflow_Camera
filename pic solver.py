@@ -13,7 +13,7 @@ from keras.models import load_model
 ap = argparse.ArgumentParser()
 args = vars(ap.parse_args())
 
-#Show Image
+#Show Image in cv2 window
 def show_image(img,title):
     cv2.namedWindow(title, cv2.WINDOW_NORMAL)
     cv2.resizeWindow(title, 450,450)
